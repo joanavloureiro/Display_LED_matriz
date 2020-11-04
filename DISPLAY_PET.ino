@@ -1,5 +1,3 @@
-
-
 // Import required libraries
 #include <LedControlSPIESP8266.h>
 
@@ -15,12 +13,13 @@
 #endif
 #include <ESPAsyncWebServer.h>
 
-// Replace with your network credentials
-const char *ssid = "VIVOFIBRA-1C12";
-const char *password = "33d7f81c12";
+// Definir rede e senha do wifi
+const char *ssid = "rede";
+const char *password = "senha";
 
-const char *http_username = "admin";
-const char *http_password = "admin";
+// Definir usuario e senha para acessar pagina
+const char *http_username = "usario"; 
+const char *http_password = "senha";
 
 const char *PARAM_INPUT_1 = "state";
 
